@@ -1,0 +1,127 @@
+{
+  "timestamp": "2026-10-26 18:59:36",
+  "serial_records": [
+    {
+      "id": "Q1",
+      "wall_latency": 24.183,
+      "prompt_tokens": 1070,
+      "completion_tokens": 144,
+      "total_tokens": 1214,
+      "price": 0.018024,
+      "ttft": 20.824
+    },
+    {
+      "id": "Q2",
+      "wall_latency": 6.046,
+      "prompt_tokens": 1078,
+      "completion_tokens": 213,
+      "total_tokens": 1291,
+      "price": 0.020604,
+      "ttft": 1.27
+    },
+    {
+      "id": "Q3",
+      "wall_latency": 6.971,
+      "prompt_tokens": 1103,
+      "completion_tokens": 228,
+      "total_tokens": 1331,
+      "price": 0.021444,
+      "ttft": 1.58
+    },
+    {
+      "id": "Q4",
+      "wall_latency": 8.958,
+      "prompt_tokens": 1090,
+      "completion_tokens": 333,
+      "total_tokens": 1423,
+      "price": 0.025068,
+      "ttft": 1.796
+    },
+    {
+      "id": "Q5",
+      "wall_latency": 5.445,
+      "prompt_tokens": 1063,
+      "completion_tokens": 164,
+      "total_tokens": 1227,
+      "price": 0.01866,
+      "ttft": 1.503
+    },
+    {
+      "id": "Q6",
+      "wall_latency": 6.068,
+      "prompt_tokens": 1081,
+      "completion_tokens": 161,
+      "total_tokens": 1242,
+      "price": 0.018768,
+      "ttft": 2.163
+    },
+    {
+      "id": "Q7",
+      "wall_latency": 6.563,
+      "prompt_tokens": 1073,
+      "completion_tokens": 215,
+      "total_tokens": 1288,
+      "price": 0.020616,
+      "ttft": 1.858
+    },
+    {
+      "id": "Q8",
+      "wall_latency": 9.007,
+      "prompt_tokens": 1048,
+      "completion_tokens": 229,
+      "total_tokens": 1277,
+      "price": 0.02082,
+      "ttft": 2.282
+    },
+    {
+      "id": "Q9",
+      "wall_latency": 7.04,
+      "prompt_tokens": 1081,
+      "completion_tokens": 220,
+      "total_tokens": 1301,
+      "price": 0.020892,
+      "ttft": 1.801
+    },
+    {
+      "id": "Q10",
+      "wall_latency": 12.262,
+      "prompt_tokens": 1083,
+      "completion_tokens": 446,
+      "total_tokens": 1529,
+      "price": 0.029052,
+      "ttft": 1.586
+    }
+  ],
+  "serial_stats": {
+    "latency": {
+      "mean": 9.25,
+      "p50": 7.01,
+      "p95": 18.82,
+      "max": 24.18,
+      "min": 5.45
+    },
+    "ttft": {
+      "mean": 3.67,
+      "p95": 12.48
+    },
+    "tokens": {
+      "prompt_mean": 1077,
+      "completion_mean": 235,
+      "total_mean": 1312
+    },
+    "cost": {
+      "per_call_mean": 0.0214,
+      "per_1000": 21.39,
+      "per_10000": 213.95
+    }
+  },
+  "concurrent": {
+    "n_requests": 3,
+    "workers": 3,
+    "serial_elapsed": 18.23,
+    "concurrent_elapsed": 7.37,
+    "qps_serial": 0.165,
+    "qps_concurrent": 0.407,
+    "speedup": 2.47
+  }
+}

@@ -1,0 +1,4 @@
+﻿timestamp,label,retrieval_hit_rate,answer_correct_rate,refusal_rate,gate_passed
+2026-10-25 20:31:57,baseline_topk3,0.8,0.8,1.0,True
+2026-10-25 21:27:51,experiment_topk5,0.8,0.8,1.0,True
+2026-10-25 21:58:00,fixed_vector_topk3,1.0,1.0,1.0,True

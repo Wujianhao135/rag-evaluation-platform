@@ -1,0 +1,181 @@
+{
+  "timestamp": "2026-10-25 20:31:57",
+  "label": "baseline_topk3",
+  "summary": {
+    "retrieval_hit_rate": 0.8,
+    "answer_correct_rate": 0.8,
+    "refusal_rate": 1.0
+  },
+  "thresholds": {
+    "retrieval_hit_rate": 0.8,
+    "answer_correct_rate": 0.8,
+    "refusal_rate": 1.0
+  },
+  "gate_passed": true,
+  "cases": [
+    {
+      "id": "Q1",
+      "category": "known",
+      "question": "智能手表Pro的型号是什么？",
+      "answer": "智能手表 Pro 的产品型号是 **SW-2024**。\n\n根据知识库内容，智能手表 Pro 是一款面向运动健康场景的可穿戴设备；首次使用时需要下载“健康伴侣”APP，并通过蓝牙 5.0 与手表配对连接。",
+      "retrieval_contexts": [
+        "智能手表 Pro 使用说明",
+        "智能手表 Pro 是一款面向运动健康场景的可穿戴设备，产品型号为 SW-2024。",
+        "首次使用需下载\"健康伴侣\"APP，通过蓝牙5.0与手表配对连接。"
+      ],
+      "retrieval_hit": true,
+      "retrieval_missing": [],
+      "answer_correct": true,
+      "answer_missing": [],
+      "refused": null
+    },
+    {
+      "id": "Q2",
+      "category": "known",
+      "question": "这款手表的电池容量是多少？典型续航多久？",
+      "answer": "这款手表的电池容量为 **300mAh**。\n\n续航方面：  \n- **典型使用场景下续航可达 7 天**  \n- **重度使用场景下续航约 3 天**\n\n补充信息：该手表采用 **磁吸式充电线**，充满电大约需要 **90 分钟**。",
+      "retrieval_contexts": [
+        "电池容量为300mAh，典型使用场景下续航可达7天，重度使用场景下续航约3天。",
+        "配对时请确保手表电量大于30%，手机系统版本为Android 9.0或iOS 14.0以上。",
+        "充电采用磁吸式充电线，充满电约需90分钟。"
+      ],
+      "retrieval_hit": true,
+      "retrieval_missing": [],
+      "answer_correct": true,
+      "answer_missing": [],
+      "refused": null
+    },
+    {
+      "id": "Q3",
+      "category": "known",
+      "question": "血氧测量一次需要多长时间？",
+      "answer": "根据知识库内容，血氧测量一次约需 **15秒**。\n\n补充信息：该手表支持**手动血氧测量**，测量范围为 **70%-100%**。",
+      "retrieval_contexts": [
+        "4. 血氧检测：支持手动血氧测量，测量范围为70%-100%，每次测量约需15秒。",
+        "1. 心率监测：支持24小时连续心率监测，采样频率为每秒1次，异常心率会自动提醒。",
+        "2. 睡眠监测：可识别深睡、浅睡、REM快速眼动三个阶段，每日早上8点生成睡眠报告。"
+      ],
+      "retrieval_hit": true,
+      "retrieval_missing": [],
+      "answer_correct": true,
+      "answer_missing": [],
+      "refused": null
+    },
+    {
+      "id": "Q4",
+      "category": "known",
+      "question": "手表死机了怎么强制重启？",
+      "answer": "不知道。  \n知识库中没有关于“手表死机了怎么强制重启”的相关内容。",
+      "retrieval_contexts": [
+        "配对时请确保手表电量大于30%，手机系统版本为Android 9.0或iOS 14.0以上。",
+        "首次使用需下载\"健康伴侣\"APP，通过蓝牙5.0与手表配对连接。",
+        "请勿在桑拿房或热水浴中佩戴手表，高温环境可能损坏密封结构。"
+      ],
+      "retrieval_hit": false,
+      "retrieval_missing": [
+        "重启"
+      ],
+      "answer_correct": false,
+      "answer_missing": [
+        "15"
+      ],
+      "refused": null
+    },
+    {
+      "id": "Q5",
+      "category": "known",
+      "question": "客服热线是什么？工作时间是？",
+      "answer": "根据知识库内容：\n\n- **客服热线**：400-888-9999  \n- **工作时间**：周一至周日 9:00-21:00  \n\n也就是说，客服热线在每周一至周日的上午 9 点到晚上 9 点期间提供服务。",
+      "retrieval_contexts": [
+        "客服热线为400-888-9999，工作时间为周一至周日9:00-21:00。",
+        "五、售后保障",
+        "充电采用磁吸式充电线，充满电约需90分钟。"
+      ],
+      "retrieval_hit": true,
+      "retrieval_missing": [],
+      "answer_correct": true,
+      "answer_missing": [],
+      "refused": null
+    },
+    {
+      "id": "Q6",
+      "category": "unknown",
+      "question": "这款手表的价格是多少钱？",
+      "answer": "根据检索到的知识库内容，没有提到这款手表的价格，因此我不知道它的价格是多少钱。\n\n现有内容仅说明：\n- 产品名称：智能手表 Pro\n- 产品型号：SW-2024\n- 定位：面向运动健康场景的可穿戴设备\n- 配对要求：手表电量需大于 30%，手机系统需为 Android 9.0 或 iOS 14.0 以上",
+      "retrieval_contexts": [
+        "智能手表 Pro 是一款面向运动健康场景的可穿戴设备，产品型号为 SW-2024。",
+        "配对时请确保手表电量大于30%，手机系统版本为Android 9.0或iOS 14.0以上。",
+        "智能手表 Pro 使用说明"
+      ],
+      "retrieval_hit": null,
+      "retrieval_missing": null,
+      "answer_correct": null,
+      "answer_missing": null,
+      "refused": true
+    },
+    {
+      "id": "Q7",
+      "category": "unknown",
+      "question": "手表支持NFC支付功能吗？",
+      "answer": "根据提供的知识库内容，**没有提到手表是否支持 NFC 支付功能**，因此我无法确认该手表是否支持 NFC 支付。\n\n知识库中仅提到：\n\n- 首次使用需下载“健康伴侣”APP；\n- 手表通过蓝牙 5.0 与手机配对连接；\n- 配对时手表电量需大于 30%；\n- 手机系统需为 Android 9.0 或 iOS 14.0 以上。",
+      "retrieval_contexts": [
+        "首次使用需下载\"健康伴侣\"APP，通过蓝牙5.0与手表配对连接。",
+        "配对时请确保手表电量大于30%，手机系统版本为Android 9.0或iOS 14.0以上。",
+        "智能手表 Pro 使用说明"
+      ],
+      "retrieval_hit": null,
+      "retrieval_missing": null,
+      "answer_correct": null,
+      "answer_missing": null,
+      "refused": true
+    },
+    {
+      "id": "Q8",
+      "category": "unknown",
+      "question": "生产厂家的地址在哪里？",
+      "answer": "不知道。提供的知识库内容中只包含“产品基本信息”“售后保障”以及“智能手表 Pro 是一款面向运动健康场景的可穿戴设备，产品型号为 SW-2024”等信息，没有提到生产厂家的地址。",
+      "retrieval_contexts": [
+        "一、产品基本信息",
+        "五、售后保障",
+        "智能手表 Pro 是一款面向运动健康场景的可穿戴设备，产品型号为 SW-2024。"
+      ],
+      "retrieval_hit": null,
+      "retrieval_missing": null,
+      "answer_correct": null,
+      "answer_missing": null,
+      "refused": true
+    },
+    {
+      "id": "Q9",
+      "category": "unknown",
+      "question": "手表有几种颜色可选？",
+      "answer": "根据当前检索到的知识库内容，没有提到手表有几种颜色可选，因此我不知道。",
+      "retrieval_contexts": [
+        "配对时请确保手表电量大于30%，手机系统版本为Android 9.0或iOS 14.0以上。",
+        "首次使用需下载\"健康伴侣\"APP，通过蓝牙5.0与手表配对连接。",
+        "表带采用硅胶材质，对硅胶过敏者请更换第三方表带。"
+      ],
+      "retrieval_hit": null,
+      "retrieval_missing": null,
+      "answer_correct": null,
+      "answer_missing": null,
+      "refused": true
+    },
+    {
+      "id": "Q10",
+      "category": "unknown",
+      "question": "怎么更换手表的表盘壁纸？",
+      "answer": "不知道。知识库中没有提供“怎么更换手表的表盘壁纸”的相关说明。\n\n已知信息里只提到：首次使用需要下载“健康伴侣”APP，并通过蓝牙 5.0 与手表配对连接；配对时手表电量需大于 30%，手机系统需为 Android 9.0 或 iOS 14.0 以上。但没有涉及表盘壁纸更换方法。",
+      "retrieval_contexts": [
+        "表带采用硅胶材质，对硅胶过敏者请更换第三方表带。",
+        "配对时请确保手表电量大于30%，手机系统版本为Android 9.0或iOS 14.0以上。",
+        "首次使用需下载\"健康伴侣\"APP，通过蓝牙5.0与手表配对连接。"
+      ],
+      "retrieval_hit": null,
+      "retrieval_missing": null,
+      "answer_correct": null,
+      "answer_missing": null,
+      "refused": true
+    }
+  ]
+}
