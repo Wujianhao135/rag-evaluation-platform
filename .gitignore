@@ -1,0 +1,30 @@
+# ===== 密钥 / 环境变量（绝不提交） =====
+.env
+.env.local
+*.env
+!.env.example
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ===== 日志与临时文件 =====
+*.log
+_*.txt
+
+# ===== 学习过程脚手架（仅本地保留，不公开） =====
+scratch/
+day7_背诵笔记.md
+day7_自查清单.md
+Day7-执行计划.md
+
+# ===== IDE / 操作系统 =====
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
